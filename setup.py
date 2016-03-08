@@ -5,7 +5,7 @@ setup(
     name='safeurl',
     version='0.0.3',
     packages=find_packages(),
-    # long_description=open(join(dirname(__file__), 'README.md')).read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         'requests==2.7.0'
     ],
