@@ -1,7 +1,7 @@
 SafeUrl: link analyzer on Python
 ================================
 Simple and clever analyzer, decoder, encoder ... urls on python, using requests
-_______________________________________________________________________________
+
 .. image:: https://badge.fury.io/py/safeurl.svg
     :target: https://badge.fury.io/py/safeurl
 
