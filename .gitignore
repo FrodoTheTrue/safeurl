@@ -63,3 +63,7 @@ target/
 
 # PyPi
 .pypirc
+
+#idea
+
+.idea/
