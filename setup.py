@@ -10,8 +10,12 @@ setup(
         'requests==2.7.0'
     ],
     test_suite='tests',
-    author = 'Fedor Isakov',
-    author_email = 'mydearfrodo@yandex.ru',
-    url = 'https://github.com/FrodoTheTrue/safeurl',
-    keywords = ['python', 'analizer', 'urls'],
+    author='Fedor Isakov',
+    author_email='mydearfrodo@yandex.ru',
+    url='https://github.com/FrodoTheTrue/safeurl',
+    keywords=['python', 'analizer', 'urls'],
+    description=(
+    "Simple and clever analyzer, decoder, encoder ... urls on python, using requests"),
+    license = "MIT",
+
 )
