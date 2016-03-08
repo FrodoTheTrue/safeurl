@@ -1,8 +1,8 @@
 import requests
 def decodeURL(args):
-    if type(args) is str:
+    if isinstance(args, str):
         return requests.get(args).url
-    if type(args) is list:
+    if isinstance(args, list):
         results = []
         for arg in args:
             results.append(requests.get(arg).url)
