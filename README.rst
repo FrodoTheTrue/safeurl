@@ -10,3 +10,11 @@ Installation
 .. code-block:: bash
 
     $ pip install safeurl
+
+Usage
+------------
+.. code-block:: python
+
+    from safeurl.core import decodeURL
+    decodeURL("http://bit.ly/1gaiW96")
+    # https://www.yandex.ru/
