@@ -9,6 +9,11 @@ Simple and clever analyzer, decoder, encoder ... urls on python, using requests
 .. image:: https://travis-ci.org/FrodoTheTrue/safeurl.svg?branch=master
     :target: https://travis-ci.org/FrodoTheTrue/safeurl
 
+
+.. image:: https://coveralls.io/repos/github/FrodoTheTrue/safeurl/badge.svg?branch=master
+    :target: https://coveralls.io/github/FrodoTheTrue/safeurl?branch=master
+
+
 Installation
 ------------
 .. code-block:: bash

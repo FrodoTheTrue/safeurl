@@ -68,3 +68,6 @@ target/
 
 .idea/
 
+# coveralls
+
+.coveralls.yml
