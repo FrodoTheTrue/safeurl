@@ -24,11 +24,11 @@ Usage
 -----
 .. code-block:: python
 
-    from safeurl.core import decodeURL
-    decodeURL("http://bit.ly/1gaiW96")
+    from safeurl.core import getRealURL
+    getRealURL("http://bit.ly/1gaiW96")
     # https://www.yandex.ru/
 
 
-    from safeurl.core import decodeURL
-    decodeURL(["http://bit.ly/1gaiW96", "http://bit.ly/1gaiW96"])
+    from safeurl.core import getRealURL
+    getRealURL(["http://bit.ly/1gaiW96", "http://bit.ly/1gaiW96"])
     # ['https://www.yandex.ru/', 'https://www.yandex.ru/']

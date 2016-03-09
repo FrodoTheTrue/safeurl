@@ -1,5 +1,5 @@
 import requests
-def decodeURL(args):
+def getRealURL(args):
     if isinstance(args, str):
         return requests.get(args).url
     if isinstance(args, list):
