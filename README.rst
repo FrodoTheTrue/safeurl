@@ -40,9 +40,9 @@ Easy way to get real url:
 .. code-block:: python
 
     from safeurl.core import getRealURL
-    getRealURL('http://bit.ly/wrongurl')
+    getRealURL('http://bit.ly.wrong/wrong')
     # 'Failed'
 
     from safeurl.core import getRealURL
-    getRealURL(['http://bit.ly/wrongurl', 'http://bit.ly/1gaiW96'])
+    getRealURL(['http://bit.ly.wrong/wrong', 'http://bit.ly/1gaiW96'])
     # ['Failed', 'https://www.yandex.ru/']
