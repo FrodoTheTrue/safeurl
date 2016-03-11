@@ -1,9 +1,15 @@
 import requests
 def getRealURL(args):
     if isinstance(args, str):
-        return requests.get(args).url
+        try:
+            return requests.get(args).url
+        except Exception:
+            return "Failed"
     if isinstance(args, list):
         results = []
         for arg in args:
-            results.append(requests.get(arg).url)
+            try:
+                results.append(requests.get(arg).url)
+            except Exception:
+                results.append("Failed")
         return results

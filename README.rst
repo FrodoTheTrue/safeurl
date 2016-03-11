@@ -22,13 +22,27 @@ Installation
 
 Usage
 -----
+Easy way to get real url:
+
 .. code-block:: python
 
     from safeurl.core import getRealURL
-    getRealURL("http://bit.ly/1gaiW96")
+    getRealURL('http://bit.ly/1gaiW96')
     # https://www.yandex.ru/
 
+    from safeurl.core import getRealURL
+    getRealURL(['http://bit.ly/1gaiW96', 'http://bit.ly/1gaiW96'])
+    # ['https://www.yandex.ru/', 'https://www.yandex.ru/']
+
+
+Аlso you can find broken urls:
+
+.. code-block:: python
 
     from safeurl.core import getRealURL
-    getRealURL(["http://bit.ly/1gaiW96", "http://bit.ly/1gaiW96"])
-    # ['https://www.yandex.ru/', 'https://www.yandex.ru/']
+    getRealURL('http://bit.ly/wrongurl')
+    # 'Failed'
+
+    from safeurl.core import getRealURL
+    getRealURL(['http://bit.ly/wrongurl', 'http://bit.ly/1gaiW96'])
+    # ['Failed', 'https://www.yandex.ru/']
