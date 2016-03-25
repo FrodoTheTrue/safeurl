@@ -71,3 +71,7 @@ target/
 # coveralls
 
 .coveralls.yml
+
+# my keys
+
+.keys
