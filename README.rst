@@ -46,3 +46,5 @@ Easy way to get real url:
     from safeurl.core import getRealURL
     getRealURL(['http://bit.ly.wrong/wrong', 'http://bit.ly/1gaiW96'])
     # ['Failed', 'https://www.yandex.ru/']
+
+# test info
