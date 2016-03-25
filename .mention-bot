@@ -1,15 +1,14 @@
 {
   "maxReviewers": 5, // Maximum  number of people to ping in the PR message, default is 3
   "numFilesToCheck": 10, // Number of files to check against, default is 5
-  "alwaysNotifyForPaths": [
-    {
-      "name": "FrodoTheTrue", // The user's Github username
-      "files": ["*.*"] // The array of file globs associated with the user
-    }
-  ], // users will always be mentioned based on file glob
+  "alwaysNotifyForPaths": [], // users will always be mentioned based on file glob
   "fallbackNotifyForPaths": [
     {
       "name": "Nikit0s", // The user's Github username
+      "files": ["*.*"] // The array of file globs associated with the user
+    },
+    {
+      "name": "FrodoTheTrue", // The user's Github username
       "files": ["*.*"] // The array of file globs associated with the user
     }
   ], // users will be mentioned based on file glob if no other user was found
