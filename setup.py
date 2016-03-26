@@ -17,5 +17,5 @@ setup(
     description=(
     "Simple and clever analyzer, decoder, encoder ... urls on python, using requests"),
     license = "MIT",
-
+    asdf="adsf",
 )
