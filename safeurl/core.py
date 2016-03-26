@@ -13,3 +13,5 @@ def getRealURL(args):
             except Exception:
                 results.append("Failed")
         return results
+
+print("kek")
