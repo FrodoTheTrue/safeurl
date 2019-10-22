@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     long_description=open('README.rst').read(),
     install_requires=[
-        'requests==2.7.0'
+        'requests==2.20.0'
     ],
     test_suite='tests',
     author='Fedor Isakov',
